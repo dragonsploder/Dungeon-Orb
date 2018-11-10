@@ -142,10 +142,10 @@ def TScore():
     print("A name for you score:")
     name = input(">")
     t = name + "-" + str(Score) + "\n"
-    f = open("IDK.txt", "a")
+    f = open("DS.txt", "a")
     f.write(t)
     f.close()
-    f = open("IDK.txt", "r")
+    f = open("DS.txt", "r")
     contents = f.read()
     f.close()
     print("Here are others scores. Lower is better")
